@@ -33,6 +33,8 @@ while True:
             break # If the value of column_input is 3 or below it will break out of the loop.
         else:
             print ("Invalid Entry!!")
+
+# This for loop is asking whether the user wants to put a nought or a cross on the board.
     for Selection in tttBoard: # Asking the user to input whether they are choosing a nought or a cross.
         Selection = str(input("Selection: o or x?: "))
         if (Selection == 'o') or (Selection == 'x'): # If a valid nought or cross, it will be set to the value in the list.
